@@ -1,0 +1,122 @@
+/* VS Code Dark+ Theme for PrismJS */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #d4d4d4;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  tab-size: 2;
+  hyphens: none;
+}
+
+/* Code container styling */
+.prism-code-container {
+  background-color: #1e1e1e;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid #2d2d2d;
+}
+
+/* Token Styles matching VS Code Dark+ */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a9955 !important;
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: #d4d4d4;
+}
+
+.token.tag {
+  color: #569cd6 !important;
+}
+
+.token.tag .token.punctuation {
+  color: #808080 !important;
+}
+
+.token.namespace {
+  opacity: 0.7;
+}
+
+.token.property,
+.token.symbol,
+.token.constant {
+  color: #9cdcfe !important;
+}
+
+.token.selector {
+  color: #d7ba7d !important;
+}
+
+.token.attr-name {
+  color: #9cdcfe !important;
+}
+
+.token.boolean,
+.token.number,
+.token.unit {
+  color: #b5cea8 !important;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.attr-value .token.punctuation {
+  color: #ce9178 !important;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: #d4d4d4;
+}
+
+.token.atrule,
+.token.keyword {
+  color: #c586c0 !important;
+}
+
+.token.function,
+.token.class-name {
+  color: #dcdcaa !important;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #d16969 !important;
+}
+
+.token.rule {
+  color: #c586c0 !important;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: #b5cea8;
+}
+
+.token.deleted {
+  color: #ce9178;
+}
